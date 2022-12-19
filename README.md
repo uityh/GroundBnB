@@ -21,18 +21,27 @@ Customers who have GroundBnB accounts are able to browse backyards to rent while
     ```sh
     git clone https://github.com/davidtayloryangg/GroundBnB.git
     ```
-2. Install server dependencies 
+2. Install ImageMagick
+    ```sh
+    sudo apt install imagemagick
+    npm i imagemagick-cli -g
+    ```
+4. Install server dependencies 
     ```sh
     cd server/
     npm i
     ```
-3. Install client dependencies
+4. Install client dependencies
     ```sh
     cd client
     npm i
-4. Start server & client (Locally)
+5. Start client (Locally)
     ```sh
     npm start
+    ```
+6. Start server (Locally)
+    ```sh
+    npm run dev
     ```
 
 # <a name="technologies"></a>Technologies
@@ -43,18 +52,4 @@ Customers who have GroundBnB accounts are able to browse backyards to rent while
 * [ImageMagick](https://imagemagick.org/script/index.php)
 
 # <a name="database"></a>Database
-
-
-
-# <a name="todo"></a>Todo's
-- [ ] validations.ts David
-- [ ] routes/listings-(/all) Ronnie
-- [ ] routes/listings-(/search/location) David
-- [ ] routes/listings-(/create) & (edit/:listingId) Leena
-- [ ] routes/listings-(/:listingId') & 
-- [ ] ('/:listingId/review') Matt 
-- [ ] routes/bookings-(/all') & ('/create') Caroline
-- [ ] ('/cancel/:bookingId) Matt
-
-
 
